@@ -1,55 +1,49 @@
 
 ---
 
-**Day 2 - PostgreSQL Learning Overview**
+Day 2 - PostgreSQL Learning Overview
 
-1. **Database and Table Creation**
-   - Created `learning_db` database.
-   - Created `users` table with columns: `id`, `name`, `email`, `age`, `created_at`.
+1. Database and Table Creation
+   - Created the `users` table with columns: id, name, email, age, created_at.
+   - Inserted sample data into the `users` table.
 
-2. **Data Insertion**
-   - Inserted initial data into `users` table.
-   - Populated with sample users for testing queries.
+2. Basic SQL Queries
+   - Selected all rows from the `users` table.
+   - Filtered rows where age > 30.
+   - Used `LIKE` to find users with names containing "Bob".
 
-3. **Basic SQL Queries**
-   - **SELECT Statements**
-     - Retrieved all data.
-     - Filtered results by `age` > 30 and by `name` pattern matching.
-   - **UPDATE and DELETE**
-     - Updated age for specific users.
-     - Deleted user with name 'Charlie'.
+3. Data Manipulation
+   - Updated Bob’s age to 26.
+   - Deleted user "Charlie" from the table.
 
-4. **Table Manipulations**
-   - **CREATE and DROP**
-     - Created and dropped dummy table `dummyTable`.
-   - **ALTER**
-     - Added `address` column to `users`.
+4. Table Alterations
+   - Created `dummyTable` and dropped it afterward.
+   - Added an `address` column to the `users` table.
 
-5. **Sorting and Distinct Results**
-   - Sorted `users` by `age` in ascending order.
-   - Retrieved unique ages.
+5. Sorting and Distinct Values
+   - Ordered users by age in ascending order.
+   - Retrieved unique ages from the `users` table.
 
-6. **LIMIT and OFFSET**
-   - Limited results to first row, with offsets for further testing.
+6. Row Limiting and Offsetting
+   - Limited output to 1 row.
+   - Limited output to 10 rows, starting from the second row.
 
-7. **GROUP BY and HAVING Clauses**
-   - Grouped by `age` and counted users.
-   - Filtered grouped results with `HAVING`.
+7. Grouping and Filtering
+   - Grouped users by age, counted each group.
+   - Applied `HAVING` to filter grouped ages between 20 and 30.
 
-8. **Logical Operators**
-   - Used `AND`, `OR`, and `NOT` in various queries.
-   - Tested value ranges with `IN`, `BETWEEN`.
+8. Operators
+   - Used `<>` and `NOT IN` for age exclusion.
+   - Combined conditions with `AND`, `OR`, `IN`, and `BETWEEN`.
 
-9. **Aggregate Functions**
-   - **COUNT**, **SUM**, **MIN**, **MAX**, **AVG** on user age.
-   - Converted `name` values to uppercase and lowercase.
+9. Aggregate Functions
+   - Counted users, summed and averaged ages, found minimum and maximum ages.
 
-10. **Additional Functions**
-    - **Date and Casting**
-      - Used `strftime()` to retrieve current date.
-      - Used `CAST()` to convert values.
-    - **Rounding Functions**
-      - `FLOOR()`, `CEIL()`, `ROUND()` applied to numbers.
+10. String and Number Functions
+    - Converted names to uppercase and lowercase.
+    - Used `strftime` to get the current date.
+    - Cast numbers, applied `FLOOR`, `CEIL`, and `ROUND` functions.
 
----
+--- 
 
+This will provide a clear, organized summary for easy reference in your repository.
