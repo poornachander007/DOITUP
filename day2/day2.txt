@@ -1,0 +1,55 @@
+
+---
+
+**Day 2 - PostgreSQL Learning Overview**
+
+1. **Database and Table Creation**
+   - Created `learning_db` database.
+   - Created `users` table with columns: `id`, `name`, `email`, `age`, `created_at`.
+
+2. **Data Insertion**
+   - Inserted initial data into `users` table.
+   - Populated with sample users for testing queries.
+
+3. **Basic SQL Queries**
+   - **SELECT Statements**
+     - Retrieved all data.
+     - Filtered results by `age` > 30 and by `name` pattern matching.
+   - **UPDATE and DELETE**
+     - Updated age for specific users.
+     - Deleted user with name 'Charlie'.
+
+4. **Table Manipulations**
+   - **CREATE and DROP**
+     - Created and dropped dummy table `dummyTable`.
+   - **ALTER**
+     - Added `address` column to `users`.
+
+5. **Sorting and Distinct Results**
+   - Sorted `users` by `age` in ascending order.
+   - Retrieved unique ages.
+
+6. **LIMIT and OFFSET**
+   - Limited results to first row, with offsets for further testing.
+
+7. **GROUP BY and HAVING Clauses**
+   - Grouped by `age` and counted users.
+   - Filtered grouped results with `HAVING`.
+
+8. **Logical Operators**
+   - Used `AND`, `OR`, and `NOT` in various queries.
+   - Tested value ranges with `IN`, `BETWEEN`.
+
+9. **Aggregate Functions**
+   - **COUNT**, **SUM**, **MIN**, **MAX**, **AVG** on user age.
+   - Converted `name` values to uppercase and lowercase.
+
+10. **Additional Functions**
+    - **Date and Casting**
+      - Used `strftime()` to retrieve current date.
+      - Used `CAST()` to convert values.
+    - **Rounding Functions**
+      - `FLOOR()`, `CEIL()`, `ROUND()` applied to numbers.
+
+---
+
