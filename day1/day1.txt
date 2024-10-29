@@ -1,32 +1,25 @@
+Day 1 - JavaScript Learning Overview
 
----
-
-**day1.txt**
-
-**Day 1 - JavaScript Learning Overview**
-
-1. **Core JavaScript Concepts**
-   - Variables: `var`, `let`, `const`
+1. Core JavaScript Concepts
+   - Variables: var, let, const
    - Data Types: string, number, boolean, object, array
    - Operators: arithmetic, comparison, logical, assignment
-   - Conditionals: `if`, `else if`, `else`, `switch`
-   - Loops: `for`, `while`, `do-while`
+   - Conditionals: if, else if, else, switch
+   - Loops: for, while, do-while
 
-2. **Functions**
+2. Functions
    - Function declarations and expressions
-   - Arrow functions (`() => {}`)
-   - Scoping: `var`, `let`, `const`
+   - Arrow functions (() => {})
+   - Scoping: var, let, const
    - Closures
 
-3. **Objects & Arrays**
+3. Objects & Arrays
    - Creating and manipulating objects
-   - Array methods: `.push()`, `.pop()`, `.map()`, `.filter()`, `.reduce()`
+   - Array methods: push(), pop(), map(), filter(), reduce()
 
-4. **Asynchronous JavaScript (Intro)**
+4. Asynchronous JavaScript (Intro)
    - Callbacks and Promises
-   - Brief overview of `async`/`await`
+   - Brief overview of async/await
 
-5. **Practical Code Examples**
+5. Practical Code Examples
    - Sample code snippets for each topic to demonstrate usage
-
----
